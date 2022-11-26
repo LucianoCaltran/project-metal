@@ -6,10 +6,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
 :root{
     --font-header: 'Metal Mania', cursive;
-    --font-p: 'Josefin Sans', sans-serif;
     --font-p2: 'Josefin Sans', sans-serif;
+    --font-p3: 'Titillium Web', sans-serif;
 }
 *{
     margin: 0px;
@@ -21,7 +23,7 @@ body{
 }
 
 header{
-    background-color: black;
+    background-image: linear-gradient(to bottom, rgb(66, 65, 65), rgb(44, 41, 41), black);
     background-position: center;
     background-repeat: inherit;
     min-height: 120px;
@@ -67,7 +69,7 @@ nav > a:hover{
 }
 
 main > article{
-    background-color: rgba(255, 255, 255, 0.884);
+    background-color: rgba(136, 134, 134, 0.916);
     margin: auto;
     min-width: 300px;
     max-width: 1000px;
@@ -92,9 +94,9 @@ main > article h1{
 main > article p{
     text-align: justify;
     text-indent: 25px;
-    font-family: var(--font-p2);
+    font-family: var(--font-p3);
     font-size: 1.2em;
-    font-weight: 550;
+    font-weight: 600;
     line-height: 1.4em;
 }
 

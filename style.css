@@ -19,22 +19,18 @@
 }
 
 body{
-    background-image: url("skull2.png");
+    background-image: url("image/skull2.png");
     background-size: 400px;
     background-attachment: fixed;
-    
-
 }
 
 header{
     background-image: linear-gradient(to bottom, rgb(66, 65, 65), rgb(44, 41, 41), black);
     background-position: center;
-    background-repeat: inherit;
     min-height: 120px;
     max-height: 340px;
     text-align: center;
     border-style: solid;
-    
 }
 
 header > h1{

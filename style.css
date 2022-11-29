@@ -19,7 +19,11 @@
 }
 
 body{
-    background-image: url(skull2.png);
+    background-image: url("skull2.png");
+    background-size: 400px;
+    background-attachment: fixed;
+    
+
 }
 
 header{
@@ -30,8 +34,7 @@ header{
     max-height: 340px;
     text-align: center;
     border-style: solid;
-    border: 2px 2px;
-    border-color: black;
+    
 }
 
 header > h1{
@@ -43,6 +46,7 @@ header > h1{
     color: red;
     margin: 0px 0px 10px 0px;
     padding: 30px 0px;
+    margin: auto;
 }
 
 nav{
@@ -65,11 +69,11 @@ nav > a{
 
 nav > a:hover{
     color: red;
-    transition-duration: 1s;
+    transition-duration: .8s;
 }
 
 main > article{
-    background-color: rgba(136, 134, 134, 0.916);
+    background-color: rgba(136, 127, 134, 0.916);
     margin: auto;
     min-width: 300px;
     max-width: 1000px;
@@ -109,5 +113,8 @@ main > article p{
 footer{
     background-color: red;
     font-family: var(--font-header);
+    font-size: 1.1em;
     text-align: center;
+    height: 30px;
+    padding-top: 5px;
 }

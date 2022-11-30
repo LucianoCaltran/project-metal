@@ -20,8 +20,9 @@
 
 body{
     background-image: url("image/skull2.png");
-    background-size: 400px;
+    background-size: 100px;
     background-attachment: fixed;
+    background-position: center center;
 }
 
 header{

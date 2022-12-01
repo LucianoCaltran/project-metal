@@ -26,8 +26,10 @@ body{
 }
 
 header{
-    background-image: linear-gradient(to bottom, rgb(66, 65, 65), rgb(44, 41, 41), black);
+    /*background-image: linear-gradient(to bottom, rgb(66, 65, 65), rgb(44, 41, 41), black);*/
+    background-image: url("image/thunder.jpg");
     background-position: center;
+    background-size: cover;
     min-height: 120px;
     max-height: 340px;
     text-align: center;
@@ -48,7 +50,7 @@ header > h1{
 
 nav{
     background-color: black;
-    padding: 10px;
+    padding: 12px;
     border-style: solid;
     border-color: red;
     border-width: 2px 2px;
@@ -60,7 +62,7 @@ nav{
 
 nav > a{
     color: white;
-    padding: 10px;
+    padding: 12px;
     text-decoration: none;
 }
 
@@ -70,7 +72,7 @@ nav > a:hover{
 }
 
 main > article{
-    background-color: rgba(136, 127, 134, 0.916);
+    background-color: rgba(224, 223, 223, 0.856);
     margin: auto;
     min-width: 300px;
     max-width: 1000px;
@@ -86,10 +88,11 @@ main > article h1{
     font-family: var(--font-header);
     font-size: 2.5em;
     font-weight: lighter;
+    color: black;
     line-height: 1.5em;
     margin: 0px 10px 20px 10px;
     text-align: center;
-    text-shadow: .5px .5px .5px red;
+    text-shadow: 1px 1px 1px red;
 }
 
 main > article p{
@@ -98,7 +101,8 @@ main > article p{
     font-family: var(--font-p3);
     font-size: 1.2em;
     font-weight: 600;
-    line-height: 1.4em;
+    color: black;
+    line-height: 1.6em;
 }
 
  p#reference{

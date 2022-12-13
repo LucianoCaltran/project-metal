@@ -58,13 +58,13 @@ li{
     color: transparent;
     padding: 2px;
 }
-  .band{
+.band{
     color: black;
     text-shadow: 1px 1px yellow;
     text-decoration: none;
   }
 
-  .band:hover{
+.band:hover{
     color: red;
     text-shadow: 1px 1px 1px black;
     transition-duration: .5s;

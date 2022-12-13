@@ -49,12 +49,15 @@ header > h1{
 }
 
 span{
-    text-align: left;
     color: black;
     text-shadow: 1px 1px 1px rgb(205, 5, 5);
     font-size: 1.2em;
 }
 
+li{
+    color: transparent;
+}
+ 
 nav{
     background-image: url("image/texture.jpg");
     padding: 12px 12px 12px 30px;
@@ -69,8 +72,9 @@ nav{
 .menu-lateral {
     display: none;
     color: rgb(205, 5, 5);
+    text-decoration: none;
 }
- 
+
 nav > a{
     color: black;
     padding: 12px;
@@ -80,6 +84,7 @@ nav > a{
 
 nav:hover .menu-lateral {
     display: block;
+    text-decoration: none;
 }
 /*nav > a:hover{
     color: rgb(205, 5, 5);

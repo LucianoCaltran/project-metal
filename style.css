@@ -56,20 +56,31 @@ span{
 
 li{
     color: transparent;
+    padding: 2px;
 }
- 
+  .band{
+    color: black;
+    text-shadow: 1px 1px yellow;
+    text-decoration: none;
+  }
+
+  .band:hover{
+    color: red;
+    text-shadow: 1px 1px 1px black;
+    transition-duration: .5s;
+  }
 nav{
     background-image: url("image/texture.jpg");
-    padding: 12px 12px 12px 30px;
+    padding: 12px 300px 12px 300px;
     border-style: solid;
     border-color: rgb(205, 5, 5);
     border-width: 2px 2px;
     font-family: var(--font-header);
-    font-size: 1.3em;
+    font-size: 1.5em;
     text-align: center;
 }
 
-.menu-lateral {
+.menu{
     display: none;
     color: rgb(205, 5, 5);
     text-decoration: none;
@@ -82,7 +93,7 @@ nav > a{
     text-shadow: 1px 1px red;
 }
 
-nav:hover .menu-lateral {
+nav:hover .menu{
     display: block;
     text-decoration: none;
 }
@@ -137,6 +148,7 @@ footer{
     font-family: var(--font-header);
     font-size: 1.1em;
     text-align: center;
+    text-shadow: 1px 1px yellow;
     height: 30px;
     padding-top: 5px;
     border: 1px solid rgb(205, 5, 5);

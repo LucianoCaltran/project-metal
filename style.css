@@ -57,13 +57,13 @@ span{
 
 nav{
     background-image: url("image/texture.jpg");
-    padding: 12px;
+    padding: 12px 12px 12px 30px;
     border-style: solid;
     border-color: rgb(205, 5, 5);
     border-width: 2px 2px;
     font-family: var(--font-header);
     font-size: 1.3em;
-    text-align: left;
+    text-align: center;
 }
 
 .menu-lateral {

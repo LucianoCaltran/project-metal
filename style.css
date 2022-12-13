@@ -49,21 +49,22 @@ header > h1{
 }
 
 nav{
-    background-color: black;
+    background-image: url("image/texture.jpg");
     padding: 12px;
     border-style: solid;
     border-color: rgb(205, 5, 5);
     border-width: 2px 2px;
     border-radius: 0px 0px 5px 5px;
     font-family: var(--font-header);
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-align: center;
 }
 
 nav > a{
-    color: white;
+    color: black;
     padding: 12px;
     text-decoration: none;
+    text-shadow: 1px 1px red;
 }
 
 nav > a:hover{
@@ -72,7 +73,8 @@ nav > a:hover{
 }
 
 main > article{
-    background-color: rgba(224, 223, 223, 0.9);
+    /*background-color: rgba(224, 223, 223, 0.9);*/
+    background-color: rgba(211, 211, 211, 0.935);
     margin: auto;
     min-width: 300px;
     max-width: 1000px;
@@ -86,7 +88,7 @@ main > article{
 
 main > article h1{
     font-family: var(--font-header);
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: lighter;
     color: black;
     line-height: 1.5em;
@@ -100,7 +102,7 @@ main > article p{
     text-indent: 25px;
     font-family: var(--font-p3);
     font-size: 1.2em;
-    font-weight: 600;
+    font-weight: bolder;
     color: black;
     line-height: 1.6em;
 }
@@ -112,7 +114,8 @@ main > article p{
  }
 
 footer{
-    background-color: rgb(205, 5, 5);
+    /*background-color: rgb(205, 5, 5);*/
+    background-image: url("image/texture.jpg");
     font-family: var(--font-header);
     font-size: 1.1em;
     text-align: center;

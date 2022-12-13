@@ -49,13 +49,6 @@ header > h1{
     margin: auto;
 }
 
-span{
-    color: black;
-    text-shadow: 1px 1px 1px rgb(205, 5, 5);
-    text-align: center;
-    font-size: 1.2em;
-}
-
 li{
     color: transparent;
     padding: 2px;
@@ -82,6 +75,13 @@ nav{
     font-family: var(--font-header);
     font-size: 1.5em;
     text-align: center;
+}
+
+nav > span{
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px rgb(205, 5, 5);
+    font-size: 1.2em;
 }
 
 .menu{

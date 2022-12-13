@@ -52,6 +52,7 @@ header > h1{
 span{
     color: black;
     text-shadow: 1px 1px 1px rgb(205, 5, 5);
+    text-align: center;
     font-size: 1.2em;
 }
 
@@ -74,7 +75,7 @@ li{
 
 nav{
     background-image: url("image/texture.jpg");
-    padding: 12px 300px 12px 300px;
+    padding: 12px 12px 12px 12px;
     border-style: solid;
     border-color: rgb(205, 5, 5);
     border-width: 2px 2px;

@@ -63,7 +63,7 @@ li{
 .band:hover{
     color: red;
     text-shadow: 1px 1px 1px black;
-    transition-duration: .5s;
+    transition-duration: .3s;
 }
 
 nav{
@@ -98,8 +98,8 @@ nav > a{
 
 nav:hover .menu{
     display: block;
-   
 }
+
 
 /*nav > a:hover{
     color: rgb(205, 5, 5);

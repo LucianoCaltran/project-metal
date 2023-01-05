@@ -142,9 +142,9 @@ main > article p{
 
 div.video{
     background-color: transparent;
-    margin: 30px 20px 30px 20px;
+    margin: 30px 20px 0px 20px;
     padding: 0px;
-    padding-bottom: 50%;
+    padding-bottom: 53%;
     position: relative;
 } 
 
@@ -154,6 +154,14 @@ div.video > iframe{
     left: 5%;
     width: 90%;
     height: 90%;
+}
+
+#refvideo{
+    line-height: 1em;
+    font-size: .9em;
+    text-indent: 0px;
+    margin-left: 65px;
+    margin-bottom: 25px;
 }
 
  p#reference{

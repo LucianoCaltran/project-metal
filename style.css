@@ -158,16 +158,16 @@ div.video > iframe{
 
 #refvideo{
     line-height: 1em;
-    font-size: .9em;
-    text-indent: 0px;
-    margin-left: 65px;
+    font-size: .8em;
+    text-align: center;
     margin-bottom: 25px;
 }
 
  p#reference{
     line-height: 3em;
-    font-size: .9em;
-    text-indent: 0px;
+    font-size: .8em;
+    
+    margin-left: -25px;
  }
 
 footer{

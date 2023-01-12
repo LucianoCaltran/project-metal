@@ -2,191 +2,182 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
 
-:root{
+:root {
     --font-header: 'Metal Mania', cursive;
     --font-p2: 'Josefin Sans', sans-serif;
     --font-p3: 'Titillium Web', sans-serif;
+
+    --color-1: rgb(187, 187, 187);
+    --color-2: rgb(205, 5, 5);
+    --color-3: rgb(216, 216, 4);
 }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     background-color: black;
     background-image: url("image/dark.jpg");
     background-size: cover;
     background-attachment: fixed;
-    background-position: cover;
 }
 
-header{
+header {
     background-color: transparent;
-    /*background-image: url("image/thunder.jpg");*/
-    background-position: center;
-    background-size: cover;
     min-height: 120px;
     max-height: 340px;
     text-align: center;
 }
 
-header > h1{
+header > h1 {
     font-family: var(--font-header);
     font-size: 5em;
-    font-weight: bold;
-    text-align: center;
-    text-shadow: 3px 3px 1px rgb(187, 187, 187);
-    color: rgb(205, 5, 5);
+    font-weight: bolder;
+    color: var(--color-2);
+    text-shadow: 3px 3px 1px var(--color-1);
     margin: 0px 0px 10px 0px;
     padding: 30px 0px;
-    margin: auto;
 }
 
-li{
-    padding: 2px;
-    list-style: none;
-}
-
-.band{
-    color: black;
-    text-shadow: 1px 1px yellow;
-    text-decoration: none;
-}
-
-.band:hover{
-    color: red;
-    text-shadow: 1px 1px 1px black;
-    transition-duration: .5s;
-}
-
-nav{
-    background-image: url("image/texture.jpg");
+nav {
+    background-color: var(--color-1);
+    background-image: url('image/texture.jpg');
+    border: 3px solid var(--color-2);
     padding: 9px 9px;
-    border: 3px solid rgb(205, 5, 5);
-    font-family: var(--font-header);
-    font-size: 1.5em;
-    text-align: center;
-    min-width: 300px;
-    max-width: 1044px;
     margin: auto;
-}
-
-nav > span{
+    min-width: 300px;
+    max-width: 1092px;
+    margin: auto;
     text-align: center;
-    color: black;
-    text-shadow: 1px 1px 1px rgb(205, 5, 5);
-    font-size: 1.3em;
 }
 
-.menu{
-    display: none;
-    color: rgb(205, 5, 5);
-}
-
-nav > a{
+nav > span {
+    font-family: var(--font-header);
+    font-size: 1.8em;
     color: black;
-    padding: 12px;
-    text-decoration: none;
-    text-shadow: 1px 1px red;
+    text-shadow: 1px 1px 1px var(--color-2);
 }
 
 nav:hover .menu{
     display: block;
 }
 
-
-/*nav > a:hover{
-    color: rgb(205, 5, 5);
-    transition-duration: .8s;
-}*/
-
-main > article{
-    background-image: url('image/dark_steel.jpg');
-    color: white;
-    margin: auto;
-    min-width: 300px;
-    max-width: 1000px;
-    padding: 20px 30px 30px 30px;
-    border-style: solid;
-    border-color: rgb(205, 5, 5);
-    border-width: 0px 3px;
+.menu {
+    display: none;
+    color: var(--color-2);
 }
 
-main > article h1{
+li {
+    padding: 2px;
+    list-style: none;
+}
+
+.band {
+    font-family: var(--font-header);
+    font-size: 1.3em;
+    color: black;
+    text-shadow: 1px 1px var(--color-3);
+    text-decoration: none;
+}
+
+.band:hover {
+    color: var(--color-2);
+    text-shadow: 1px 1px 1px black;
+    transition-duration: .5s;
+}
+
+main > article {
+    background-color: black;
+    background-image: url('image/dark_steel.jpg');
+    border: solid var(--color-2);
+    border-width: 0px 3px;
+    min-width: 300px;
+    max-width: 1050px;
+    margin: auto;
+    padding: 20px 30px 30px 30px;
+}
+
+main > article h1 {
     font-family: var(--font-header);
     font-size: 3em;
     font-weight: lighter;
-    color: rgb(205, 5, 5);
+    color: var(--color-2);
+    text-shadow: 1px 2px 1px var(--color-1);
+    text-align: center;
     line-height: 1.4em;
     margin: 0px 10px 20px 10px;
-    text-align: center;
-    text-shadow: 1px 2px 1px rgb(187, 187, 187);
 }
 
-main > article p{
-    text-align: justify;
-    text-indent: 25px;
+main > article p {
     font-family: var(--font-p3);
     font-size: 1.2em;
     font-weight: bolder;
-    color: rgb(187, 187, 187);
-    line-height: 1.6em;
+    color: var(--color-1);
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 1.8em;
 }
 
-div.video{
+#box_1 {
+}
+
+div.video {
     background-color: transparent;
     margin: 30px 20px 0px 20px;
     padding: 0px;
     padding-bottom: 53%;
     position: relative;
-} 
+}
 
-div.video > iframe{
+div.video > iframe {
     position: absolute;
     top: 5%;
     left: 5%;
     width: 90%;
     height: 90%;
+    border: 3px solid var(--color-1);
 }
 
-#refvideo{
-    line-height: 1em;
+#refvideo {
     font-size: .8em;
     text-align: center;
+    line-height: 1em;
     margin-bottom: 25px;
 }
 
- p#reference{
-    line-height: 3em;
+#reference {
     font-size: .8em;
+    line-height: 3em;
     margin-left: -25px;
- }
+}
 
-footer{
-    /*background-color: rgb(205, 5, 5);*/
-    background-image: url("image/texture.jpg");
+footer {
+    background-color: black;
+    background-image: url('image/texture.jpg');
+    border: 3px solid var(--color-2);
     font-family: var(--font-header);
     font-size: 1.1em;
+    color: black;
     text-align: center;
-    text-shadow: 1px 1px yellow;
+    text-shadow: 1px 1px var(--color-3);
     height: 30px;
     padding-top: 5px;
-    border: 3px solid rgb(205, 5, 5);
 }
 
-#github{
-    text-decoration: none;
-    text-shadow: 1px 1px yellow;
+#github {
     color: black;
+    text-shadow: 1px 1px var(--color-3);
+    text-decoration: none;
 }
 
-#github:hover{
-    color: red;
+#github:hover {
+    color: var(--color-2);
+    text-shadow: 1px 1px black;
+    font-size: 1.05em;
 }
